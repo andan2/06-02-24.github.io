@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="shortcut icon" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Soul</title>
+</head>
+<body>
+    <div class="wing right"></div>
+    <div class="wing left"></div>
+     <div class="heart"></div>
+     <!-- La lightbox, inicialmente oculta -->
+<div class="lightbox" id="miLightbox">
+    <div class="lightbox-content">
+        <span class="close"><i class='bx bx-x'></i></span>
+        <p>Hola, María:</p>
+
+        <p>Como es habitual, continúo con mi rutina de escribir una carta por semana. Creo que aún no has visto las cartas anteriores, aunque si has llegado a esta, habrás comprobado que el botón del home de la carta de Navidad te redirigía a una especie de portfolio. No esperaba tu respuesta a corto plazo, para ser sincero, pero me hace muy feliz haberla recibido 😊​!</p>
+
+        <p>No te acordarás, pero yo suelo comentar datos curiosos de vez en cuando, y allá por noviembre te mencioné algo sobre un episodio de <em>Los Simpson</em> relacionado con Apu y Manjula (su esposa) en San Valentín. Bueno, pues en el episodio, básicamente, Apu decide hacerle un regalo especial a Manjula cada día durante los 7 días antes de San Valentín. (Dale al play <span id="emojiBoton" style="cursor: pointer;">▶️</span>. PD: El doblaje de <em>Los Simpson</em> en español es mejor que el latino 😬​😁​).</p>
+
+        <p>He decidido hacer algo parecido, pero en lugar de ser durante 7 días, será cada semana desde que empiece San Valentín durante un mes; o sea, 4 cartas especiales (bueno, aún más especiales, jeje). Empezaré la semana que viene. Y no lo hago porque me hayas hablado; es algo que iba a hacer de todas maneras, aunque no me hubieras contestado. Así que es algo planeado con antelación.</p>
+
+        <p>Yo antes era de los que se pasaban todo el día jugando al PC a juegos cuando estudiaba bachillerato (que son los estudios previos a la universidad), sacaba notas regulares-malas por estar todo el día jugando. La universidad la empecé igualmente así; los primeros años jugando. Claramente, mis padres sabían cómo había ido el bachillerato y, cuando me veían durante mi periodo en la universidad con el ordenador, se creían que estaba haciendo de todo menos estudiar. Y la verdad es que tuvieron razón durante los primeros dos años. No obstante, a partir del tercero, empecé a estudiar de verdad, empecé a sacar matrículas de honor en casi todas las asignaturas, pero mis padres, cuando me veían con el ordenador, seguían pensando que no estudiaba y me la pasaba todo el día jugando al ordenador. Yo no les enseñaba mis notas, no les decía que estaba sacando las mejores notas de la clase. Cuando acabé la carrera, me llamaron para acudir a la entrega de premios de mejor expediente académico de toda la carrera. Cuando se lo dije a mis padres, no se lo creían.</p>
+
+        <p>Puede que te preguntes por qué te estoy contando esto y qué relación tiene contigo. La relación es que no te mando la carta directamente porque prefiero que te des cuenta un poco más adelante. No obstante, tendré algún detalle también por WhatsApp, no lo dudes, jeje. Al igual que mis padres se creían que no estudiaba, tú podrías pensar que no he pensado en ti. Pero no he hecho otra cosa que eso, tal vez sea algo negativo mío, pero bueno, así soy. Tampoco puedo ser perfecto... jajaja.</p>
+
+        <p>Por cierto, la web de esta semana es <a href="https://www.turismovietnam.info/" target="_blank" rel="nofollow noopener">turismovietnam.info</a>. Ya se que es la misma que la semana pasada, pero la media eran de unos 50 posts por web y en esta estoy haciendo el doble, quiero ir experimentando cosas para tampoco hacerlas todas con el mismo patrón.</p>
+    
+        <p>Hasta la próxima,</p>
+    
+        <p>Andrei.</p>
+    </div>
+</div>
+    <!-- Estructura de la caja de luz para el video -->
+    <div id="cajaLuz" class="lightbox lightboxVideo" style="display: none;">
+        <div class="lightbox-content lightbox-contentVideo">
+            <span class="close" onclick="cerrarCajaLuz()"><i class='bx bx-x'></i></span>
+            <video controls>
+                <source src="https://res.cloudinary.com/dclfvlcah/video/upload/v1707258846/simpsons_iw1mjn.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+    </div>
+        <div id="envelope">
+  <div class="top"></div>
+  <div class="home-button-container">
+    <!-- El ícono de la casa ahora funciona como un botón de enlace -->
+    <a href="https://andan2.github.io/portfolio.github.io/" id="home-button">
+      <i class="fas fa-home"></i>
+    </a>
+  </div>
+  <div class="sides"></div>
+</div>
+    <div class="star">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
